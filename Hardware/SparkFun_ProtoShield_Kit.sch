@@ -91,6 +91,7 @@
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="114" name="Badge_Outline" color="11" fill="1" visible="no" active="no"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
@@ -15485,12 +15486,10 @@ layer for the logo on the board is tSilk.</description>
 <wire x1="28.575" y1="53.34" x2="22.225" y2="53.34" width="0.254" layer="51"/>
 <wire x1="23.495" y1="52.832" x2="22.225" y2="52.832" width="0.2032" layer="51"/>
 <hole x="2.54" y="6.35" drill="3.302"/>
-<hole x="45.72" y="57.15" drill="3.302"/>
 <hole x="17.78" y="57.15" drill="3.302"/>
 <wire x1="0" y1="64.77" x2="53.34" y2="64.77" width="0.2032" layer="20"/>
-<wire x1="53.34" y1="64.77" x2="53.34" y2="6.35" width="0.2032" layer="20"/>
+<wire x1="53.34" y1="64.77" x2="53.34" y2="60.96" width="0.2032" layer="20"/>
 <wire x1="2.54" y1="2.54" x2="0" y2="5.08" width="0.2032" layer="20"/>
-<wire x1="0" y1="5.08" x2="0" y2="64.77" width="0.2032" layer="20"/>
 <wire x1="2.54" y1="2.54" x2="21.59" y2="2.54" width="0.2032" layer="20"/>
 <wire x1="39.37" y1="3.81" x2="50.8" y2="3.81" width="0.2032" layer="20"/>
 <wire x1="50.8" y1="3.81" x2="53.34" y2="6.35" width="0.2032" layer="20"/>
@@ -15710,6 +15709,31 @@ layer for the logo on the board is tSilk.</description>
 <wire x1="49.53" y1="55.245" x2="49.53" y2="53.975" width="0.254" layer="21"/>
 <wire x1="52.07" y1="55.245" x2="52.07" y2="53.975" width="0.254" layer="21"/>
 <wire x1="52.07" y1="52.705" x2="52.07" y2="51.435" width="0.254" layer="21"/>
+<wire x1="0" y1="58.42" x2="0" y2="64.77" width="0.2032" layer="20"/>
+<wire x1="53.34" y1="6.35" x2="53.34" y2="57.15" width="0.2032" layer="20"/>
+<wire x1="53.34" y1="57.15" x2="50.8" y2="57.15" width="0.2032" layer="20"/>
+<wire x1="50.8" y1="57.15" x2="48.26" y2="59.69" width="0.2032" layer="20"/>
+<wire x1="48.26" y1="59.69" x2="48.26" y2="60.96" width="0.2032" layer="20"/>
+<wire x1="48.26" y1="60.96" x2="53.34" y2="60.96" width="0.2032" layer="20"/>
+<wire x1="46.99" y1="60.96" x2="46.99" y2="59.69" width="0.2032" layer="20"/>
+<wire x1="46.99" y1="59.69" x2="33.655" y2="59.69" width="0.2032" layer="20"/>
+<wire x1="33.655" y1="59.69" x2="33.655" y2="60.96" width="0.2032" layer="20"/>
+<wire x1="33.655" y1="60.96" x2="46.99" y2="60.96" width="0.2032" layer="20"/>
+<wire x1="32.385" y1="59.69" x2="32.385" y2="60.96" width="0.2032" layer="20"/>
+<wire x1="32.385" y1="60.96" x2="13.97" y2="60.96" width="0.2032" layer="20"/>
+<wire x1="15.24" y1="59.69" x2="32.385" y2="59.69" width="0.2032" layer="20"/>
+<wire x1="15.24" y1="59.69" x2="12.7" y2="57.15" width="0.2032" layer="20"/>
+<wire x1="12.7" y1="57.15" x2="2.54" y2="57.15" width="0.2032" layer="20"/>
+<wire x1="1.27" y1="57.15" x2="0" y2="55.88" width="0.2032" layer="20"/>
+<wire x1="0" y1="55.88" x2="0" y2="5.08" width="0.2032" layer="20"/>
+<wire x1="13.97" y1="60.96" x2="11.43" y2="58.42" width="0.2032" layer="20"/>
+<wire x1="11.43" y1="58.42" x2="2.54" y2="58.42" width="0.2032" layer="20"/>
+<wire x1="1.27" y1="58.42" x2="0" y2="58.42" width="0.2032" layer="20"/>
+<wire x1="1.27" y1="58.42" x2="1.27" y2="57.15" width="0.2032" layer="20"/>
+<wire x1="2.54" y1="58.42" x2="2.54" y2="57.15" width="0.2032" layer="20"/>
+<text x="5.08" y="57.15" size="0.8128" layer="51">DRILL OUT</text>
+<text x="19.05" y="59.69" size="0.8128" layer="51">DRILL OUT</text>
+<text x="36.83" y="59.69" size="0.8128" layer="51">DRILL OUT</text>
 </package>
 </packages>
 <symbols>
@@ -16428,14 +16452,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="P$1" x="0" y="0" dx="3.9" dy="2.4" layer="1" roundness="25"/>
 <text x="-1.5" y="2" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.5" y="-3" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SMTSO-256-ET">
-<wire x1="-2.286" y1="1.016" x2="-1.016" y2="2.286" width="1.016" layer="31" curve="-42.075022"/>
-<wire x1="1.016" y1="2.286" x2="2.286" y2="1.016" width="1.016" layer="31" curve="-42.075022"/>
-<wire x1="2.286" y1="-1.016" x2="1.016" y2="-2.286" width="1.016" layer="31" curve="-42.075022"/>
-<wire x1="-1.016" y1="-2.286" x2="-2.286" y2="-1.016" width="1.016" layer="31" curve="-42.075022"/>
-<circle x="0" y="0" radius="1.016" width="0.127" layer="51"/>
-<pad name="P$1" x="0" y="0" drill="3.81" diameter="6.1976"/>
 </package>
 <package name="SMTRA-256-8-6">
 <pad name="P$1" x="-1.9939" y="0" drill="1.3462"/>
@@ -17985,6 +18001,15 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
 </package>
+<package name="SMTSO-256-ET-0.165DIA">
+<circle x="0" y="0" radius="1.016" width="0.127" layer="51"/>
+<wire x1="-1.016" y1="2.286" x2="-2.286" y2="1.016" width="1.016" layer="31" curve="42.075022"/>
+<wire x1="2.286" y1="1.016" x2="1.016" y2="2.286" width="1.016" layer="31" curve="42.075022"/>
+<wire x1="1.016" y1="-2.286" x2="2.286" y2="-1.016" width="1.016" layer="31" curve="42.075022"/>
+<wire x1="-2.286" y1="-1.016" x2="-1.016" y2="-2.286" width="1.016" layer="31" curve="42.075022"/>
+<pad name="P$1" x="0" y="0" drill="4.191" diameter="6.1976"/>
+<text x="-2.54" y="1.27" size="0.8128" layer="49">.165 drill</text>
+</package>
 </packages>
 <symbols>
 <symbol name="M10">
@@ -18272,7 +18297,7 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </deviceset>
 <deviceset name="M01" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;Header 1&lt;/b&gt;
-Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115).</description>
+Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115). SMTSO-256-ET is a "flush mount" nut for a 4-40 screw. The older package used to be too tight, and did not allow it to sit properly thru the drill hit. The latest (0.165DIA) fits nice and snug.</description>
 <gates>
 <gate name="G$1" symbol="M01" x="0" y="0"/>
 </gates>
@@ -18286,14 +18311,6 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </technologies>
 </device>
 <device name="SMD" package="LUXEON-PAD">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SMTSO-256-ET" package="SMTSO-256-ET">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 </connects>
@@ -18400,6 +18417,14 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <device name="PTH_NO_SILK_YES_STOP" package="1X01_NO_SILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMTSO-256-ET-0.165DIA" package="SMTSO-256-ET-0.165DIA">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
