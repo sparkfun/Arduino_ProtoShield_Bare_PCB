@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -192,7 +192,6 @@ ProtoShield</text>
 <text x="23.495" y="63.881" size="0.8128" layer="21" ratio="15">D0</text>
 <text x="18.415" y="63.881" size="0.8128" layer="21" ratio="15">5V</text>
 <text x="20.574" y="63.881" size="0.8128" layer="21" ratio="15">GND</text>
-<hole x="50.8" y="59.69" drill="3.2"/>
 <text x="17.78" y="2.8575" size="0.8128" layer="21" font="vector" ratio="15">JC2</text>
 <text x="20.32" y="2.8575" size="0.8128" layer="21" font="vector" ratio="15">JC1</text>
 <text x="15.24" y="2.8575" size="0.8128" layer="21" font="vector" ratio="15">JC3</text>
@@ -211,7 +210,7 @@ ProtoShield</text>
 <text x="47.244" y="53.213" size="0.8128" layer="21" ratio="15">SDA</text>
 <text x="47.244" y="55.753" size="0.8128" layer="21" ratio="15">SCL</text>
 <text x="19.812" y="65.024" size="0.8128" layer="22" ratio="15" rot="MR180">BlueSMiRF</text>
-<text x="36.195" y="2.54" size="0.8128" layer="21" font="vector" ratio="15">LED1</text>
+<text x="37.465" y="3.81" size="0.8128" layer="21" font="vector" ratio="15">LED1</text>
 <text x="4.6355" y="3.6195" size="0.8128" layer="21" font="vector" ratio="15">LED2</text>
 <text x="4.445" y="61.595" size="1.27" layer="16" font="vector" ratio="15" rot="MR180">v30</text>
 <text x="12.827" y="12.446" size="1.27" layer="21" font="fixed" ratio="15" rot="R180">5V</text>
@@ -238,7 +237,7 @@ ProtoShield</text>
 <dimension x1="0" y1="0" x2="0" y2="5.08" x3="-3.81" y3="2.54" textsize="1.27" textratio="15" layer="47" unit="inch"/>
 <text x="36.068" y="61.976" size="0.8128" layer="22" ratio="15" rot="MR0">TX</text>
 <text x="36.068" y="59.436" size="0.8128" layer="22" ratio="15" rot="MR0">RX</text>
-<text x="24.003" y="59.436" size="0.8128" layer="22" ratio="15" rot="MR0">GND</text>
+<text x="24.638" y="59.436" size="0.8128" layer="22" ratio="15" rot="MR0">GND</text>
 <text x="16.383" y="59.436" size="0.8128" layer="22" ratio="15" rot="MR0">5V</text>
 </plain>
 <libraries>
@@ -1553,12 +1552,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.27" y1="58.42" x2="0" y2="58.42" width="0.2032" layer="20"/>
 <wire x1="1.27" y1="58.42" x2="1.27" y2="57.15" width="0.2032" layer="20"/>
 <wire x1="2.794" y1="58.42" x2="2.794" y2="57.15" width="0.2032" layer="20"/>
-<text x="5.08" y="57.404" size="0.8128" layer="51">DRILL OUT</text>
-<text x="14.097" y="59.944" size="0.8128" layer="51">DRILL OUT</text>
-<text x="36.83" y="59.944" size="0.8128" layer="51">DRILL OUT</text>
-<text x="25.527" y="59.944" size="0.8128" layer="51">DRILL OUT</text>
+<text x="5.08" y="57.404" size="0.8128" layer="51">ROUTE OUT</text>
+<text x="14.097" y="59.944" size="0.8128" layer="51">ROUTE OUT</text>
+<text x="36.83" y="59.944" size="0.8128" layer="51">ROUTE OUT</text>
+<text x="25.527" y="59.944" size="0.8128" layer="51">ROUTE OUT</text>
 <wire x1="21.971" y1="59.69" x2="21.971" y2="60.96" width="0.2032" layer="20"/>
 <wire x1="23.495" y1="59.69" x2="23.495" y2="60.96" width="0.2032" layer="20"/>
+<text x="5.08" y="57.404" size="0.8128" layer="20">ROUTE OUT</text>
+<text x="14.097" y="59.944" size="0.8128" layer="20">ROUTE OUT</text>
+<text x="25.527" y="59.944" size="0.8128" layer="20">ROUTE OUT</text>
+<text x="36.83" y="59.944" size="0.8128" layer="20">ROUTE OUT</text>
 </package>
 </packages>
 </library>
@@ -3412,6 +3415,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,8b9f74ff717c6999"/>
 <approved hash="3,1,1c12c1d2c1711cb1"/>
 <approved hash="3,1,e5c12afd4bb80884"/>
+<approved hash="2,20,a9f23c380f7b9ab1"/>
 <approved hash="3,1,7620d360d38476c4"/>
 <approved hash="3,1,00de8d1e8d5c009c"/>
 <approved hash="3,1,6da169a8a76164a1"/>
@@ -3419,7 +3423,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="3,1,ff41e281e2a2ff62"/>
 <approved hash="3,1,76fa75fa6b34afba"/>
 <approved hash="3,1,1571d67515329335"/>
-<approved hash="2,20,a9f23c380f7b9ab1"/>
 <approved hash="4,1,7c24f277ffff47a8"/>
 <approved hash="4,1,bda3f876c9f9ba28"/>
 <approved hash="4,1,b9a536763bfd822a"/>
@@ -3437,8 +3440,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,5aee6d77ff1a5b62"/>
 <approved hash="19,16,9f22bf659c704433"/>
 <approved hash="19,16,98b2abfe974b4403"/>
-<approved hash="19,16,6824b834e40ed788"/>
 <approved hash="19,16,6539a6f0fb8adaf5"/>
+<approved hash="19,16,6824b834e40ed788"/>
 <approved hash="19,16,aacc49c3315930e0"/>
 <approved hash="19,16,dc22fc620537dd73"/>
 <approved hash="19,16,a6b348252fbf22bf"/>

@@ -15648,12 +15648,16 @@ layer for the logo on the board is tSilk.</description>
 <wire x1="1.27" y1="58.42" x2="0" y2="58.42" width="0.2032" layer="20"/>
 <wire x1="1.27" y1="58.42" x2="1.27" y2="57.15" width="0.2032" layer="20"/>
 <wire x1="2.794" y1="58.42" x2="2.794" y2="57.15" width="0.2032" layer="20"/>
-<text x="5.08" y="57.404" size="0.8128" layer="51">DRILL OUT</text>
-<text x="14.097" y="59.944" size="0.8128" layer="51">DRILL OUT</text>
-<text x="36.83" y="59.944" size="0.8128" layer="51">DRILL OUT</text>
-<text x="25.527" y="59.944" size="0.8128" layer="51">DRILL OUT</text>
+<text x="5.08" y="57.404" size="0.8128" layer="51">ROUTE OUT</text>
+<text x="14.097" y="59.944" size="0.8128" layer="51">ROUTE OUT</text>
+<text x="36.83" y="59.944" size="0.8128" layer="51">ROUTE OUT</text>
+<text x="25.527" y="59.944" size="0.8128" layer="51">ROUTE OUT</text>
 <wire x1="21.971" y1="59.69" x2="21.971" y2="60.96" width="0.2032" layer="20"/>
 <wire x1="23.495" y1="59.69" x2="23.495" y2="60.96" width="0.2032" layer="20"/>
+<text x="5.08" y="57.404" size="0.8128" layer="20">ROUTE OUT</text>
+<text x="14.097" y="59.944" size="0.8128" layer="20">ROUTE OUT</text>
+<text x="25.527" y="59.944" size="0.8128" layer="20">ROUTE OUT</text>
+<text x="36.83" y="59.944" size="0.8128" layer="20">ROUTE OUT</text>
 </package>
 </packages>
 <symbols>
@@ -18260,7 +18264,7 @@ Used on FTDI breakouts</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="M10" prefix="JP" uservalue="yes">
+<deviceset name="M10" prefix="J" uservalue="yes">
 <description>&lt;b&gt;Header 10&lt;/b&gt;
 Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115).</description>
 <gates>
@@ -18413,7 +18417,7 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </device>
 </devices>
 </deviceset>
-<deviceset name="M01" prefix="JP" uservalue="yes">
+<deviceset name="M01" prefix="J" uservalue="yes">
 <description>&lt;b&gt;Header 1&lt;/b&gt;
 Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115). SMTSO-256-ET is a "flush mount" nut for a 4-40 screw. The older package used to be too tight, and did not allow it to sit properly thru the drill hit. The latest (0.165DIA) fits nice and snug.</description>
 <gates>
@@ -18550,7 +18554,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 </devices>
 </deviceset>
-<deviceset name="M19" prefix="JP" uservalue="yes">
+<deviceset name="M19" prefix="J" uservalue="yes">
 <description>1x19 .1" header</description>
 <gates>
 <gate name="G$1" symbol="M19" x="0" y="0"/>
@@ -18610,7 +18614,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 </devices>
 </deviceset>
-<deviceset name="M06" prefix="JP" uservalue="yes">
+<deviceset name="M06" prefix="J" uservalue="yes">
 <description>&lt;b&gt;Header 6&lt;/b&gt;&lt;br&gt;
 Standard 6-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115). Molex polarized connector foot print use with SKU : PRT-08094 with associated crimp pins and housings.&lt;p&gt;
 
@@ -18969,7 +18973,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </device>
 </devices>
 </deviceset>
-<deviceset name="M08" prefix="JP" uservalue="yes">
+<deviceset name="M08" prefix="J" uservalue="yes">
 <description>&lt;b&gt;Header 8&lt;/b&gt;
 Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115).</description>
 <gates>
@@ -19217,7 +19221,7 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 </devices>
 </deviceset>
-<deviceset name="AVR_SPI_PRG_6" prefix="JP">
+<deviceset name="AVR_SPI_PRG_6" prefix="J">
 <description>&lt;b&gt;AVR ISP 6 Pin&lt;/b&gt;
 This is the reduced ISP connector for AVR programming. Common on Arduino. This footprint will take up less PCB space and can be used with a 10-pin to 6-pin adapter such as SKU: BOB-08508
 
@@ -20238,7 +20242,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="JUMPER-PAD-2-NC_BY_TRACE" prefix="SJ">
+<deviceset name="JUMPER-PAD-2-NC_BY_TRACE" prefix="JP">
 <gates>
 <gate name="G$1" symbol="PAD-JUMPER-2-NC_BY_TRACE" x="0" y="0"/>
 </gates>
