@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -20799,13 +20799,13 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="U$1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH"/>
-<part name="JP7" library="SparkFun-Connectors" deviceset="M06" device="SILK_FEMALE_PTH" value="BlueSMiRF"/>
+<part name="JP7" library="SparkFun-Connectors" deviceset="M06" device="SILK_FEMALE_PTH"/>
 <part name="P+1" library="SparkFun-Aesthetics" deviceset="5V" device="" value="5V"/>
 <part name="U$2" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
 <part name="JP8" library="TempLibrary" deviceset="ARDUINO_R3_SHIELD" device="R3_PROTO_SHIELD"/>
 <part name="JP11" library="SparkFun-Connectors" deviceset="M08" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M10" device="SILK_FEMALE_PTH"/>
-<part name="S3" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="PTH"/>
+<part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="PTH"/>
 <part name="S4" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="PTH"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -20816,7 +20816,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="SJ3" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 <part name="SJ4" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="M06" device="SILK_FEMALE_PTH"/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="M06" device="SILK_FEMALE_PTH" value="BlueSMiRF"/>
 <part name="P+3" library="SparkFun-Aesthetics" deviceset="5V" device="" value="5V"/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
@@ -20824,8 +20824,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <sheet>
 <plain>
 <text x="170.942" y="11.43" size="2.54" layer="94">Nathan Seidle</text>
-<text x="238.76" y="7.62" size="2.54" layer="94">v30</text>
-<text x="175.768" y="7.62" size="2.54" layer="94">Toni Klopfenstein</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v31</text>
+<text x="168.148" y="7.62" size="2.54" layer="94">Toni Klopfenstein &amp; Ho Yun "Bobby" Chan</text>
 <wire x1="0" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="97" style="longdash"/>
 <wire x1="73.66" y1="40.64" x2="73.66" y2="0" width="0.1524" layer="97" style="longdash"/>
 <wire x1="73.66" y1="40.64" x2="111.76" y2="40.64" width="0.1524" layer="97" style="longdash"/>
@@ -20839,9 +20839,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <text x="190.5" y="180.34" size="2.54" layer="97">Prototyping Hardware</text>
 <text x="76.2" y="35.56" size="1.9304" layer="97">Breadboard Footprint</text>
 <text x="2.54" y="2.54" size="2.54" layer="97">BlueSMiRF Footprint</text>
-<text x="5.08" y="7.62" size="1.778" layer="97">Disable jumpers 1-4 to 
+<text x="27.94" y="7.62" size="1.778" layer="97">Disable jumpers 1-4 to 
 create customizable 
 6-pin header for prototyping.</text>
+<text x="45.72" y="111.76" size="1.778" layer="95">Arduino_R3_Shield</text>
+<text x="68.58" y="66.04" size="1.778" layer="95" rot="R90">Reset</text>
 </plain>
 <instances>
 <instance part="ICSP" gate="G$1" x="33.02" y="60.96"/>
@@ -20878,11 +20880,11 @@ create customizable
 </instance>
 <instance part="JP11" gate="G$1" x="12.7" y="124.46"/>
 <instance part="JP1" gate="G$1" x="101.6" y="111.76" rot="R180"/>
-<instance part="S3" gate="G$1" x="198.12" y="109.22" smashed="yes" rot="R90">
+<instance part="S2" gate="G$1" x="198.12" y="109.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="195.58" y="106.68" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="S4" gate="G$1" x="71.12" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="68.58" y="66.04" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="76.2" y="66.04" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="GND8" gate="1" x="40.64" y="109.22"/>
 <instance part="GND9" gate="1" x="86.36" y="101.6"/>
@@ -21011,7 +21013,7 @@ create customizable
 <segment>
 <wire x1="198.12" y1="104.14" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="S3" gate="G$1" pin="1"/>
+<pinref part="S2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="43.18" y1="58.42" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
@@ -21047,6 +21049,16 @@ create customizable
 <wire x1="48.26" y1="25.4" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="58.42" y1="25.4" x2="58.42" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="G$1" pin="3"/>
+<wire x1="15.24" y1="25.4" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
+<label x="12.7" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP7" gate="G$1" pin="3"/>
+<pinref part="SJ3" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -21382,12 +21394,12 @@ create customizable
 <pinref part="JP8" gate="G$1" pin="A5"/>
 </segment>
 </net>
-<net name="RES" class="0">
+<net name="BUTTON" class="0">
 <segment>
 <wire x1="198.12" y1="114.3" x2="198.12" y2="116.84" width="0.1524" layer="91"/>
-<label x="200.66" y="116.84" size="1.778" layer="95"/>
+<label x="185.42" y="116.84" size="1.778" layer="95"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="S3" gate="G$1" pin="2"/>
+<pinref part="S2" gate="G$1" pin="2"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="116.84" x2="198.12" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="116.84" x2="198.12" y2="116.84" width="0.1524" layer="91"/>
@@ -21516,7 +21528,7 @@ create customizable
 <label x="22.86" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="FTDI_TX" class="0">
+<net name="RX-I" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="5"/>
 <pinref part="SJ1" gate="G$1" pin="1"/>
@@ -21528,7 +21540,7 @@ create customizable
 <label x="12.7" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="FTDI_RX" class="0">
+<net name="TX-O" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="4"/>
 <pinref part="SJ2" gate="G$1" pin="1"/>
@@ -21540,19 +21552,7 @@ create customizable
 <label x="12.7" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="FTDI_GND" class="0">
-<segment>
-<pinref part="JP7" gate="G$1" pin="3"/>
-<pinref part="SJ3" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP2" gate="G$1" pin="3"/>
-<wire x1="15.24" y1="25.4" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
-<label x="12.7" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="FTDI_5V" class="0">
+<net name="VCC" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
