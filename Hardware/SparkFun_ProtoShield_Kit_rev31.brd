@@ -48,8 +48,8 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -1034,6 +1034,12 @@ ProtoShield</text>
 <wire x1="24.13" y1="8.255" x2="24.13" y2="12.065" width="0.254" layer="22"/>
 <wire x1="24.765" y1="12.7" x2="24.13" y2="12.065" width="0.254" layer="22"/>
 <wire x1="29.7942" y1="13.0302" x2="31.0642" y2="13.0302" width="0.2032" layer="22"/>
+<wire x1="20.574" y1="60.198" x2="20.574" y2="60.579" width="0.254" layer="42"/>
+<wire x1="20.574" y1="60.579" x2="22.606" y2="60.579" width="0.254" layer="42"/>
+<wire x1="22.606" y1="60.579" x2="22.606" y2="60.198" width="0.254" layer="42"/>
+<wire x1="22.606" y1="59.309" x2="22.606" y2="58.801" width="0.254" layer="42"/>
+<wire x1="22.606" y1="58.801" x2="20.574" y2="58.801" width="0.254" layer="42"/>
+<wire x1="20.574" y1="58.801" x2="20.574" y2="59.309" width="0.254" layer="42"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -4456,16 +4462,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="24.892" y1="60.579" x2="18.034" y2="60.579" width="0.254" layer="1"/>
 <wire x1="18.034" y1="60.579" x2="17.145" y2="59.69" width="0.254" layer="1"/>
 </signal>
-<signal name="N$2">
-<wire x1="23.114" y1="60.452" x2="22.606" y2="60.96" width="0.2794" layer="16"/>
-<wire x1="22.606" y1="60.96" x2="20.574" y2="60.96" width="0.2794" layer="16"/>
-<wire x1="20.574" y1="60.96" x2="20.066" y2="60.452" width="0.2794" layer="16"/>
-</signal>
-<signal name="N$9">
-<wire x1="20.066" y1="58.928" x2="20.574" y2="58.42" width="0.2794" layer="16"/>
-<wire x1="20.574" y1="58.42" x2="22.606" y2="58.42" width="0.2794" layer="16"/>
-<wire x1="22.606" y1="58.42" x2="23.114" y2="58.928" width="0.2794" layer="16"/>
-</signal>
 <signal name="A0">
 <contactref element="JP10" pad="6"/>
 <contactref element="JP8" pad="A0"/>
@@ -4588,8 +4584,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,e642ea60ec31e013"/>
 <approved hash="19,16,fc4242605dd1e3f3"/>
 <approved hash="19,16,e5c25be05db1e393"/>
-<approved hash="19,16,c77904b318493935"/>
 <approved hash="19,16,ca641a7707cd3448"/>
+<approved hash="19,16,c77904b318493935"/>
 <approved hash="19,16,ea45a867b7d4f5f6"/>
 <approved hash="19,16,a9b34724023e0f3f"/>
 <approved hash="19,16,e042fe60e1d3fff1"/>
