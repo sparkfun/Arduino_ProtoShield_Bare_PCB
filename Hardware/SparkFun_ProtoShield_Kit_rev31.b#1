@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -47,7 +47,7 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
@@ -1034,23 +1034,12 @@ ProtoShield</text>
 <wire x1="24.13" y1="8.255" x2="24.13" y2="12.065" width="0.254" layer="22"/>
 <wire x1="24.765" y1="12.7" x2="24.13" y2="12.065" width="0.254" layer="22"/>
 <wire x1="29.7942" y1="13.0302" x2="31.0642" y2="13.0302" width="0.2032" layer="22"/>
+<wire x1="20.574" y1="60.198" x2="20.574" y2="60.579" width="0.254" layer="42"/>
 <wire x1="20.574" y1="60.579" x2="22.606" y2="60.579" width="0.254" layer="42"/>
-<wire x1="24.13" y1="58.801" x2="20.574" y2="58.801" width="0.254" layer="42"/>
-<wire x1="24.13" y1="58.801" x2="25.273" y2="59.944" width="0.254" layer="42"/>
-<wire x1="25.273" y1="59.944" x2="25.273" y2="61.214" width="0.254" layer="42"/>
-<wire x1="22.86" y1="67.691" x2="23.368" y2="68.199" width="0.254" layer="42"/>
-<wire x1="23.368" y1="68.199" x2="24.892" y2="68.199" width="0.254" layer="42"/>
-<wire x1="24.892" y1="68.199" x2="25.4" y2="67.691" width="0.254" layer="42"/>
-<wire x1="25.4" y1="67.691" x2="24.892" y2="68.199" width="0.254" layer="41"/>
-<wire x1="24.892" y1="68.199" x2="23.368" y2="68.199" width="0.254" layer="41"/>
-<wire x1="23.368" y1="68.199" x2="22.86" y2="67.691" width="0.254" layer="41"/>
-<wire x1="24.638" y1="65.278" x2="24.638" y2="63.627" width="0.254" layer="41"/>
-<wire x1="23.622" y1="65.405" x2="23.622" y2="63.627" width="0.254" layer="41"/>
-<wire x1="24.638" y1="65.405" x2="24.638" y2="65.151" width="0.254" layer="42"/>
-<wire x1="23.622" y1="65.405" x2="23.622" y2="65.151" width="0.254" layer="42"/>
-<wire x1="22.606" y1="60.579" x2="23.114" y2="61.087" width="0.254" layer="42"/>
-<wire x1="20.447" y1="60.579" x2="20.447" y2="60.198" width="0.254" layer="42"/>
-<wire x1="20.447" y1="58.801" x2="20.447" y2="59.182" width="0.254" layer="42"/>
+<wire x1="22.606" y1="60.579" x2="22.606" y2="60.198" width="0.254" layer="42"/>
+<wire x1="22.606" y1="59.309" x2="22.606" y2="58.801" width="0.254" layer="42"/>
+<wire x1="22.606" y1="58.801" x2="20.574" y2="58.801" width="0.254" layer="42"/>
+<wire x1="20.574" y1="58.801" x2="20.574" y2="59.309" width="0.254" layer="42"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -4595,8 +4584,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,e642ea60ec31e013"/>
 <approved hash="19,16,fc4242605dd1e3f3"/>
 <approved hash="19,16,e5c25be05db1e393"/>
-<approved hash="19,16,c77904b318493935"/>
 <approved hash="19,16,ca641a7707cd3448"/>
+<approved hash="19,16,c77904b318493935"/>
 <approved hash="19,16,ea45a867b7d4f5f6"/>
 <approved hash="19,16,a9b34724023e0f3f"/>
 <approved hash="19,16,e042fe60e1d3fff1"/>
