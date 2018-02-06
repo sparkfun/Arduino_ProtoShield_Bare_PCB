@@ -48,13 +48,13 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -4589,7 +4589,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="5V_RAIL" pad="3"/>
 <contactref element="5V_RAIL" pad="2"/>
 <contactref element="5V_RAIL" pad="1"/>
-<wire x1="10.16" y1="13.97" x2="25.4" y2="13.97" width="1.524" layer="16"/>
 <wire x1="10.16" y1="13.97" x2="14.478" y2="9.652" width="0.254" layer="1"/>
 <wire x1="14.478" y1="9.652" x2="20.574" y2="9.652" width="0.254" layer="1"/>
 <wire x1="20.574" y1="9.652" x2="21.844" y2="9.652" width="0.254" layer="1"/>
@@ -4616,14 +4615,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="21.1455" y1="4.318" x2="24.384" y2="4.318" width="0.2032" layer="1"/>
 <wire x1="24.384" y1="4.318" x2="25.4" y2="3.302" width="0.2032" layer="1"/>
 <wire x1="32.004" y1="3.81" x2="35.8775" y2="3.81" width="0.254" layer="1"/>
-<wire x1="20.32" y1="13.97" x2="22.86" y2="13.97" width="0" layer="19" extent="1-1"/>
-<wire x1="17.78" y1="13.97" x2="20.32" y2="13.97" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="13.97" x2="17.78" y2="13.97" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="13.97" x2="15.24" y2="13.97" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="13.97" x2="22.86" y2="13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="32.004" y1="3.81" x2="31.75" y2="4.064" width="0.254" layer="1"/>
 <wire x1="31.75" y1="4.064" x2="30.7975" y2="4.064" width="0.254" layer="1"/>
 <wire x1="25.4" y1="3.302" x2="30.734" y2="3.302" width="0.2032" layer="1"/>
+<wire x1="10.16" y1="13.97" x2="12.7" y2="13.97" width="1.524" layer="16"/>
+<wire x1="12.7" y1="13.97" x2="15.24" y2="13.97" width="1.524" layer="16"/>
+<wire x1="15.24" y1="13.97" x2="17.78" y2="13.97" width="1.524" layer="16"/>
+<wire x1="17.78" y1="13.97" x2="20.32" y2="13.97" width="1.524" layer="16"/>
+<wire x1="20.32" y1="13.97" x2="22.86" y2="13.97" width="1.524" layer="16"/>
+<wire x1="22.86" y1="13.97" x2="25.4" y2="13.97" width="1.524" layer="16"/>
 </signal>
 <signal name="N$18">
 <via x="38.1" y="16.51" extent="1-16" drill="1.016" diameter="1.8796"/>
@@ -5279,17 +5279,17 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="A1">
 <contactref element="JP8" pad="A1"/>
 <contactref element="JP10" pad="5"/>
-<wire x1="2.54" y1="21.59" x2="7.62" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="21.59" x2="7.62" y2="21.59" width="0.254" layer="16"/>
 </signal>
 <signal name="A2">
 <contactref element="JP8" pad="A2"/>
 <contactref element="JP10" pad="4"/>
-<wire x1="2.54" y1="19.05" x2="7.62" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="19.05" x2="7.62" y2="19.05" width="0.254" layer="16"/>
 </signal>
 <signal name="A5">
 <contactref element="JP8" pad="A5"/>
 <contactref element="JP10" pad="1"/>
-<wire x1="2.54" y1="11.43" x2="7.62" y2="11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="11.43" x2="7.62" y2="11.43" width="0.254" layer="16"/>
 </signal>
 <signal name="N$8">
 <via x="10.16" y="16.51" extent="1-16" drill="1.016" diameter="1.8796"/>
@@ -5339,10 +5339,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="N$218">
 <via x="10.16" y="54.61" extent="1-16" drill="1.016" diameter="1.8796"/>
 </signal>
-<signal name="N$219">
+<signal name="N$5">
 <via x="10.16" y="57.15" extent="1-16" drill="1.016" diameter="1.8796"/>
+</signal>
+<signal name="N$219">
 <via x="10.16" y="59.69" extent="1-16" drill="1.016" diameter="1.8796"/>
-<wire x1="10.16" y1="57.15" x2="10.16" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$221">
 <via x="40.64" y="16.51" extent="1-16" drill="1.016" diameter="1.8796"/>
@@ -5458,25 +5459,26 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="N$3">
 <contactref element="JP8" pad="A4"/>
 <contactref element="JP10" pad="2"/>
-<wire x1="2.54" y1="13.97" x2="7.62" y2="13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="13.97" x2="7.62" y2="13.97" width="0.254" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="JP8" pad="A3"/>
 <contactref element="JP10" pad="3"/>
-<wire x1="2.54" y1="16.51" x2="7.62" y2="16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="16.51" x2="7.62" y2="16.51" width="0.254" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="JP8" pad="A0"/>
 <contactref element="JP10" pad="6"/>
-<wire x1="2.54" y1="24.13" x2="7.62" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="24.13" x2="7.62" y2="24.13" width="0.254" layer="16"/>
 </signal>
 <signal name="VDD">
 <contactref element="VDD_RAIL" pad="3"/>
 <contactref element="VDD_RAIL" pad="2"/>
 <contactref element="VDD_RAIL" pad="1"/>
-<wire x1="15.24" y1="11.43" x2="22.86" y2="11.43" width="1.524" layer="16"/>
-<wire x1="17.78" y1="11.43" x2="20.32" y2="11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="22.86" y1="11.43" x2="20.32" y2="11.43" width="0" layer="19" extent="16-16"/>
+<wire x1="15.24" y1="11.43" x2="17.78" y2="11.43" width="1.524" layer="16"/>
+<wire x1="17.78" y1="11.43" x2="20.32" y2="11.43" width="1.524" layer="16"/>
+<contactref element="VDD_RAIL" pad="4"/>
+<wire x1="20.32" y1="11.43" x2="22.86" y2="11.43" width="1.524" layer="16"/>
 </signal>
 <signal name="JP3">
 <contactref element="L1" pad="A"/>
@@ -5598,6 +5600,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="4,16,4be51f9411cc4899"/>
 <approved hash="3,1,6286d9401f821f41"/>
 <approved hash="3,1,de6160a167e0d920"/>
+<approved hash="19,16,a84a776088278789"/>
 <approved hash="3,1,00de8d1e8d5c009c"/>
 <approved hash="3,1,68e62ba61ba2a7ba"/>
 <approved hash="3,1,706d932d90af73ef"/>
@@ -5623,83 +5626,85 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,ec45b867be34ea16"/>
 <approved hash="19,16,c26c218330593100"/>
 <approved hash="19,16,e642ea60ec31e013"/>
-<approved hash="19,16,ecd88d5f827ae199"/>
-<approved hash="19,16,305c806f893a3a05"/>
-<approved hash="19,16,26cd89678ef223b4"/>
-<approved hash="19,16,3dab7fff853ac72a"/>
-<approved hash="19,16,dce982478482d9e8"/>
-<approved hash="19,16,f667841f810af1ee"/>
-<approved hash="19,16,d47a98179ff2d1bb"/>
-<approved hash="19,16,166f841f9bea0b96"/>
 <approved hash="19,16,1efe825784a21be7"/>
-<approved hash="19,16,a84a776088278789"/>
-<approved hash="19,16,db079799e070ae72"/>
-<approved hash="19,16,f26d94e1e61c8354"/>
-<approved hash="19,16,26df9339e74050aa"/>
-<approved hash="19,16,1d029e67e87e6817"/>
+<approved hash="19,16,ecd88d5f827ae199"/>
+<approved hash="19,16,f667841f810af1ee"/>
+<approved hash="19,16,26cd89678ef223b4"/>
+<approved hash="19,16,166f841f9bea0b96"/>
+<approved hash="19,16,3dab7fff853ac72a"/>
+<approved hash="19,16,305c806f893a3a05"/>
+<approved hash="19,16,d47a98179ff2d1bb"/>
+<approved hash="19,16,dce982478482d9e8"/>
 <approved hash="19,16,09a99d11ed8c7bd8"/>
-<approved hash="19,16,c746911fe5feb1c3"/>
 <approved hash="19,16,345090ebe2164541"/>
-<approved hash="19,16,ec936ef918189a36"/>
+<approved hash="19,16,26df9339e74050aa"/>
 <approved hash="19,16,fcc48b3bfb568e8d"/>
-<approved hash="19,16,ff6fb31521f06fae"/>
-<approved hash="19,16,16be54fd3b38793f"/>
-<approved hash="19,16,1b49ab6d37388410"/>
-<approved hash="19,16,0dd8a26530f09da1"/>
-<approved hash="19,16,35eba9553aa0a5f2"/>
+<approved hash="19,16,db079799e070ae72"/>
+<approved hash="19,16,c746911fe5feb1c3"/>
+<approved hash="19,16,ec936ef918189a36"/>
+<approved hash="19,16,f26d94e1e61c8354"/>
+<approved hash="19,16,1d029e67e87e6817"/>
 <approved hash="19,16,3d7aaf1d25e8b583"/>
+<approved hash="19,16,35eba9553aa0a5f2"/>
+<approved hash="19,16,16be54fd3b38793f"/>
 <approved hash="19,16,c7cda65d3c785f8c"/>
+<approved hash="19,16,ff6fb31521f06fae"/>
 <approved hash="19,16,f7fca9453a8067fd"/>
+<approved hash="19,16,0dd8a26530f09da1"/>
+<approved hash="19,16,1b49ab6d37388410"/>
 <approved hash="19,16,dd72af1d3f084ffb"/>
+<approved hash="19,16,66a7f22977b4e1d6"/>
+<approved hash="19,16,5b5effd3782edf4f"/>
+<approved hash="19,16,49d1fc017d78caa4"/>
+<approved hash="19,16,b409f8a17a48347c"/>
 <approved hash="19,16,720cf15f7246f219"/>
 <approved hash="19,16,839d01c182200038"/>
-<approved hash="19,16,b409f8a17a48347c"/>
-<approved hash="19,16,49d1fc017d78caa4"/>
 <approved hash="19,16,9d63fbd97c24195a"/>
-<approved hash="19,16,66a7f22977b4e1d6"/>
-<approved hash="19,16,93cae403616e1483"/>
 <approved hash="19,16,a848fe277fc62bcd"/>
-<approved hash="19,16,5b5effd3782edf4f"/>
-<approved hash="19,16,98470a1d63e8f3be"/>
-<approved hash="19,16,90d60c557ca0e3cf"/>
-<approved hash="19,16,a8e5076576f0db9c"/>
-<approved hash="19,16,784f0a1d790809c6"/>
+<approved hash="19,16,93cae403616e1483"/>
 <approved hash="19,16,be740e6d7138c22d"/>
-<approved hash="19,16,62f0035d7a7819b1"/>
-<approved hash="19,16,5a52161567f02993"/>
-<approved hash="19,16,b383f1fd7d383f02"/>
 <approved hash="19,16,52c10c457c8021c0"/>
-<approved hash="19,16,ae6a0aed6e10c97b"/>
-<approved hash="19,16,76a9f4ff941e160c"/>
-<approved hash="19,16,5d7c0b1969f83df9"/>
+<approved hash="19,16,b383f1fd7d383f02"/>
+<approved hash="19,16,5a52161567f02993"/>
+<approved hash="19,16,62f0035d7a7819b1"/>
+<approved hash="19,16,784f0a1d790809c6"/>
+<approved hash="19,16,98470a1d63e8f3be"/>
+<approved hash="19,16,a8e5076576f0db9c"/>
+<approved hash="19,16,90d60c557ca0e3cf"/>
 <approved hash="19,16,bce5093f6b46dc90"/>
-<approved hash="19,16,413d0d9f6c762248"/>
 <approved hash="19,16,93930717618af7e2"/>
-<approved hash="19,16,68570ee76a1a0f6e"/>
+<approved hash="19,16,5d7c0b1969f83df9"/>
+<approved hash="19,16,ae6a0aed6e10c97b"/>
+<approved hash="19,16,413d0d9f6c762248"/>
 <approved hash="19,16,66fe113d775002b7"/>
 <approved hash="19,16,873804616478e42d"/>
-<approved hash="19,16,f0ddd920e9d1002d"/>
-<approved hash="19,16,89a94d8b7b757f56"/>
-<approved hash="19,16,c701dc18e9693271"/>
-<approved hash="19,16,3294dd0cee33c1aa"/>
+<approved hash="19,16,68570ee76a1a0f6e"/>
+<approved hash="19,16,76a9f4ff941e160c"/>
 <approved hash="19,16,9c504f1b7a01694b"/>
+<approved hash="19,16,3294dd0cee33c1aa"/>
 <approved hash="19,16,db1edfece2f32600"/>
 <approved hash="19,16,bade726745614dd9"/>
-<approved hash="19,16,ae8c405b75095bdf"/>
-<approved hash="19,16,fc00df4cec2b0f66"/>
-<approved hash="19,16,ee93dfd8eb051a4f"/>
-<approved hash="19,16,b2b7486f7d7547ac"/>
+<approved hash="19,16,c701dc18e9693271"/>
+<approved hash="19,16,89a94d8b7b757f56"/>
+<approved hash="19,16,4ba4498b7b69b947"/>
+<approved hash="19,16,44fd725b79558ff2"/>
+<approved hash="19,16,1575d040e121e415"/>
 <approved hash="19,16,3e07df60ec05cd63"/>
 <approved hash="19,16,608b4c67793595d8"/>
-<approved hash="19,16,74b24c6f78898055"/>
 <approved hash="19,16,2892dffcef2bd844"/>
-<approved hash="19,16,1575d040e121e415"/>
-<approved hash="19,16,44fd725b79558ff2"/>
-<approved hash="19,16,4ba4498b7b69b947"/>
-<approved hash="19,16,2379255189068328"/>
+<approved hash="19,16,74b24c6f78898055"/>
+<approved hash="19,16,ee93dfd8eb051a4f"/>
+<approved hash="19,16,b2b7486f7d7547ac"/>
+<approved hash="19,16,ae8c405b75095bdf"/>
+<approved hash="19,16,fc00df4cec2b0f66"/>
+<approved hash="19,16,f0ddd920e9d1002d"/>
+<approved hash="19,16,952a542f31dbfcd8"/>
 <approved hash="19,16,99f752433421f393"/>
-<approved hash="19,16,bee952e33af9daf5"/>
+<approved hash="19,16,2379255189068328"/>
+<approved hash="19,16,8b6452d7330fe6ba"/>
+<approved hash="19,16,3f422d65817a9f5b"/>
 <approved hash="19,16,372b176db96e952e"/>
+<approved hash="19,16,bee952e33af9daf5"/>
 <approved hash="19,16,045c2881877aa7a1"/>
 <approved hash="19,16,a2f651173163ce84"/>
 <approved hash="19,16,4d6552f3372124b1"/>
@@ -5710,74 +5715,71 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,ed7e296d853a4d2f"/>
 <approved hash="19,16,70825d4f392b18e0"/>
 <approved hash="19,16,c9081751855a5705"/>
-<approved hash="19,16,952a542f31dbfcd8"/>
 <approved hash="19,16,c6512c81876661b0"/>
-<approved hash="19,16,8b6452d7330fe6ba"/>
-<approved hash="19,16,3f422d65817a9f5b"/>
-<approved hash="19,16,c603a75d2a784942"/>
-<approved hash="19,16,dcbcae1d29085935"/>
-<approved hash="19,16,3425a8552ca0b33c"/>
-<approved hash="19,16,1a87aa6d213892de"/>
-<approved hash="19,16,3cb4ae1d33e8a34d"/>
 <approved hash="19,16,0c16a36526f08b6f"/>
+<approved hash="19,16,3425a8552ca0b33c"/>
+<approved hash="19,16,3cb4ae1d33e8a34d"/>
+<approved hash="19,16,1a87aa6d213892de"/>
 <approved hash="19,16,177055fd2d386ff1"/>
+<approved hash="19,16,c603a75d2a784942"/>
 <approved hash="19,16,fea1b21537f07960"/>
 <approved hash="19,16,f632a8452c807133"/>
-<approved hash="19,16,5a9cfeef5612f18d"/>
+<approved hash="19,16,dcbcae1d29085935"/>
+<approved hash="19,16,b5cbf99d54741abe"/>
+<approved hash="19,16,a98aff1b51fa050f"/>
+<approved hash="19,16,4813fd3d5344e466"/>
+<approved hash="19,16,6765f3155988cf14"/>
 <approved hash="19,16,9208e53f4f523a41"/>
 <approved hash="19,16,9ca1fae552183798"/>
-<approved hash="19,16,825f00fdac1c2efa"/>
 <approved hash="19,16,73cef0635c7adcdb"/>
-<approved hash="19,16,4813fd3d5344e466"/>
-<approved hash="19,16,a98aff1b51fa050f"/>
-<approved hash="19,16,b5cbf99d54741abe"/>
-<approved hash="19,16,6765f3155988cf14"/>
+<approved hash="19,16,5a9cfeef5612f18d"/>
+<approved hash="19,16,825f00fdac1c2efa"/>
 <approved hash="19,16,fc4242605dd1e3f3"/>
-<approved hash="19,16,a5b2156dd33860eb"/>
-<approved hash="19,16,7936185dd878bb77"/>
-<approved hash="19,16,8b101755dea04109"/>
-<approved hash="19,16,a845eafddf389dc4"/>
-<approved hash="19,16,49071745de808306"/>
 <approved hash="19,16,b3231c65d4f0795a"/>
 <approved hash="19,16,41940d15c5f08b55"/>
+<approved hash="19,16,a5b2156dd33860eb"/>
+<approved hash="19,16,7936185dd878bb77"/>
+<approved hash="19,16,a845eafddf389dc4"/>
+<approved hash="19,16,49071745de808306"/>
 <approved hash="19,16,8381111dc1e85178"/>
+<approved hash="19,16,8b101755dea04109"/>
 <approved hash="19,16,6389111ddb08ab00"/>
 <approved hash="19,16,e5c25be05db1e393"/>
 <approved hash="19,16,c77904b318493935"/>
 <approved hash="19,16,ca641a7707cd3448"/>
-<approved hash="19,16,ea45a867b7d4f5f6"/>
-<approved hash="19,16,a9b34724023e0f3f"/>
-<approved hash="19,16,e042fe60e1d3fff1"/>
 <approved hash="19,16,f3c5b1e7b7b4f596"/>
 <approved hash="19,16,a5cc46c21cd81d60"/>
 <approved hash="19,16,f9c2e7e0e1b3ff91"/>
-<approved hash="19,16,796bfbff8a1e08ce"/>
-<approved hash="19,16,693c1e3d69501c75"/>
+<approved hash="19,16,ea45a867b7d4f5f6"/>
+<approved hash="19,16,a9b34724023e0f3f"/>
+<approved hash="19,16,e042fe60e1d3fff1"/>
+<approved hash="19,16,679501e7741a11ac"/>
+<approved hash="19,16,a1a805ed7010d7b9"/>
+<approved hash="19,16,88fa0b617a78faef"/>
+<approved hash="19,16,4eff029f72763c8a"/>
 <approved hash="19,16,9c5108177f8ae920"/>
 <approved hash="19,16,52be041977f8233b"/>
-<approved hash="19,16,679501e7741a11ac"/>
 <approved hash="19,16,b327063f7546c252"/>
-<approved hash="19,16,a1a805ed7010d7b9"/>
-<approved hash="19,16,4eff029f72763c8a"/>
-<approved hash="19,16,88fa0b617a78faef"/>
-<approved hash="19,16,88be386dd9386ae7"/>
-<approved hash="19,16,4e853c1dd108a10c"/>
-<approved hash="19,16,9e2f3165def07356"/>
-<approved hash="19,16,a61c3a55d4a04b05"/>
+<approved hash="19,16,796bfbff8a1e08ce"/>
+<approved hash="19,16,693c1e3d69501c75"/>
 <approved hash="19,16,640b3a45d480890a"/>
-<approved hash="19,16,ae8d3c1dcbe85b74"/>
+<approved hash="19,16,6c982015cff08159"/>
+<approved hash="19,16,4e853c1dd108a10c"/>
 <approved hash="19,16,543a355dd278b17b"/>
 <approved hash="19,16,8549c7fdd53897c8"/>
-<approved hash="19,16,6c982015cff08159"/>
-<approved hash="19,16,0cb5a8ed6210c5a4"/>
+<approved hash="19,16,9e2f3165def07356"/>
+<approved hash="19,16,88be386dd9386ae7"/>
+<approved hash="19,16,a61c3a55d4a04b05"/>
+<approved hash="19,16,ae8d3c1dcbe85b74"/>
 <approved hash="19,16,c421b33d7b500e68"/>
-<approved hash="19,16,ffa3a91965f83126"/>
 <approved hash="19,16,314ca5176d8afb3d"/>
-<approved hash="19,16,d47656ff981e1ad3"/>
-<approved hash="19,16,1e3aab3f6746d04f"/>
-<approved hash="19,16,ca88ace7661a03b1"/>
 <approved hash="19,16,25e7a6616878e8f2"/>
 <approved hash="19,16,e3e2af9f60762e97"/>
+<approved hash="19,16,d47656ff981e1ad3"/>
+<approved hash="19,16,0cb5a8ed6210c5a4"/>
+<approved hash="19,16,ca88ace7661a03b1"/>
+<approved hash="19,16,ffa3a91965f83126"/>
+<approved hash="19,16,1e3aab3f6746d04f"/>
 </errors>
 </board>
 </drawing>

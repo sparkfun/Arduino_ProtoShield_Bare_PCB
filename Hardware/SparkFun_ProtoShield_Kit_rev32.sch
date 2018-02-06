@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -25652,7 +25652,8 @@ Open Jumper Pads</text>
 <wire x1="116.84" y1="81.28" x2="113.03" y2="81.28" width="0.1524" layer="91"/>
 <junction x="116.84" y="83.82"/>
 <pinref part="VDD" gate="G$1" pin="VCC_2"/>
-<wire x1="113.284" y1="88.9" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="VDD_RAIL" gate="G$1" pin="4"/>
+<wire x1="113.03" y1="88.9" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
 <junction x="116.84" y="88.9"/>
 </segment>
 </net>
@@ -25851,10 +25852,10 @@ Open Jumper Pads</text>
 <approved hash="113,1,128.563,113.098,GND_RAIL_1,,,,,"/>
 <approved hash="113,1,109.813,86.4277,VDD_RAIL,,,,,"/>
 <approved hash="113,1,128.563,87.6977,GND_RAIL_2,,,,,"/>
+<approved hash="115,1,49.53,33.02,TX-O,,,,,"/>
 <approved hash="115,1,44.45,30.48,GND,,,,,"/>
 <approved hash="115,1,46.99,27.94,VCC,,,,,"/>
 <approved hash="115,1,45.72,35.56,RX-I,,,,,"/>
-<approved hash="115,1,49.53,33.02,TX-O,,,,,"/>
 </errors>
 </schematic>
 </drawing>
