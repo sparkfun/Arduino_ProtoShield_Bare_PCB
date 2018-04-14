@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -215,24 +215,19 @@
 <text x="45.593" y="62.611" size="1.27" layer="16" font="vector" ratio="15" rot="MR180">v32</text>
 <text x="30.099" y="3.1115" size="0.8128" layer="21" font="vector" ratio="15">5V</text>
 <text x="27.305" y="3.1115" size="0.8128" layer="21" font="vector" ratio="15">GND</text>
-<dimension x1="0" y1="0" x2="0" y2="59.69" x3="-1.905" y3="29.845" textsize="1.27" textratio="15" layer="47" unit="inch"/>
-<dimension x1="0" y1="1.27" x2="53.34" y2="1.27" x3="26.67" y3="-2.54" textsize="1.27" textratio="15" layer="47" unit="inch"/>
-<dimension x1="2.54" y1="62.23" x2="0" y2="59.69" x3="-6.667503125" y3="68.897503125" textsize="1.27" textratio="15" layer="47" unit="inch"/>
-<dimension x1="2.54" y1="62.23" x2="13.97" y2="62.23" x3="8.255" y3="71.755" textsize="1.27" textratio="15" layer="47" unit="inch"/>
-<dimension x1="16.51" y1="68.58" x2="29.21" y2="68.58" x3="22.86" y3="70.485" textsize="1.27" textratio="15" layer="47" unit="inch"/>
-<dimension x1="31.75" y1="63.5" x2="50.8" y2="63.5" x3="41.275" y3="67.945" textsize="1.27" textratio="15" layer="47" unit="inch"/>
-<dimension x1="50.8" y1="63.5" x2="53.34" y2="60.96" x3="55.562503125" y3="65.7225" textsize="1.27" textratio="15" layer="47" unit="inch"/>
-<dimension x1="29.21" y1="68.58" x2="31.75" y2="66.04" x3="39.370003125" y3="76.2" textsize="1.27" textratio="15" layer="47" unit="inch"/>
-<text x="20.955" y="-5.715" size="1.27" layer="47" font="vector" ratio="15">Units: Inches</text>
-<text x="32.385" y="-14.605" size="1.6764" layer="51" font="vector" ratio="15">Nathan Seidle</text>
-<text x="32.385" y="-17.145" size="1.6764" layer="51" font="vector" ratio="15">Toni Klopfenstein &amp; Ho Yun "Bobby" Chan</text>
+<dimension x1="0" y1="1.27" x2="53.34" y2="1.27" x3="26.67" y3="-12.7" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="62.23" x2="13.97" y2="62.23" x3="8.255" y3="82.55" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="16.51" y1="68.58" x2="29.21" y2="68.58" x3="22.86" y3="77.47" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="31.75" y1="63.5" x2="50.8" y2="63.5" x3="41.275" y3="72.39" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<text x="20.955" y="-15.875" size="1.27" layer="47" font="vector" ratio="15">Dimensions in Inches</text>
+<text x="29.845" y="-26.035" size="1.6764" layer="51" font="vector" ratio="15">Nathan Seidle</text>
+<text x="29.845" y="-28.575" size="1.6764" layer="51" font="vector" ratio="15">Toni Klopfenstein &amp; Ho Yun "Bobby" Chan</text>
 <hole x="29.845" y="6.35" drill="0.381"/>
 <hole x="30.48" y="6.35" drill="0.381"/>
 <hole x="31.115" y="6.35" drill="0.381"/>
-<dimension x1="0" y1="0" x2="16.51" y2="68.58" x3="-12.7524875" y3="34.29" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="53.34" y1="0" x2="53.34" y2="60.96" x3="57.15" y3="30.48" textsize="1.27" textratio="15" layer="47" unit="inch"/>
-<dimension x1="53.34" y1="0" x2="53.34" y2="7.62" x3="60.96" y3="3.81" textsize="1.27" textratio="15" layer="47" unit="inch"/>
-<dimension x1="0" y1="0" x2="0" y2="5.08" x3="-3.81" y3="2.54" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="16.51" y2="68.58" x3="-17.8324875" y3="34.29" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="53.34" y1="0" x2="53.34" y2="7.62" x3="55.88" y3="3.81" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="0" y2="5.08" x3="-2.54" y3="2.54" textsize="1.27" textratio="15" layer="47" unit="inch"/>
 <text x="35.306" y="61.087" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">D11</text>
 <text x="35.306" y="58.293" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">D10</text>
 <text x="25.273" y="59.182" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">GND</text>
@@ -1983,6 +1978,27 @@
 <wire x1="27.94" y1="40.513" x2="26.797" y2="39.37" width="0.2032" layer="21" style="shortdash" curve="90"/>
 <wire x1="26.797" y1="39.37" x2="26.797" y2="16.51" width="0.2032" layer="21" style="shortdash"/>
 <wire x1="26.797" y1="16.51" x2="27.94" y2="15.367" width="0.2032" layer="21" style="shortdash" curve="90"/>
+<dimension x1="0" y1="68.58" x2="2.54" y2="68.58" x3="1.27" y3="85.09" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="13.97" y1="66.04" x2="16.51" y2="66.04" x3="15.24" y3="80.01" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="31.75" y1="66.04" x2="29.21" y2="66.04" x3="30.48" y3="74.93" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="53.34" y1="68.58" x2="50.8" y2="68.58" x3="52.07" y3="69.85" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="53.34" y1="63.5" x2="53.34" y2="60.96" x3="66.040003125" y3="62.23" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="62.23" x2="2.54" y2="59.69" x3="-10.16" y3="60.96" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="8.89" x2="5.08" y2="8.89" x3="3.81" y3="-5.08" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="2.54" y2="0" x3="1.27" y3="-2.54" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="5.08" y1="6.35" x2="38.1" y2="6.35" x3="21.59" y3="-7.62" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="38.1" y1="6.35" x2="40.64" y2="6.35" x3="39.37" y3="-10.16" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="40.64" y1="8.89" x2="52.07" y2="8.89" x3="46.355" y3="-7.62" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="52.07" y1="8.89" x2="53.34" y2="8.89" x3="52.705" y3="-5.08" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="8.89" x2="2.54" y2="6.35" x3="-5.08" y3="7.62" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="52.07" y1="8.89" x2="52.07" y2="10.16" x3="58.42" y3="9.525" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="31.75" y1="66.04" x2="31.75" y2="68.58" x3="-15.24" y3="67.31" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="31.75" y1="66.04" x2="31.75" y2="63.5" x3="63.5" y3="64.77" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="13.97" y1="66.04" x2="13.97" y2="62.23" x3="-12.7" y3="64.135" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="-6.35" y1="59.69" x2="-6.35" y2="8.89" x3="-2.54" y3="34.29" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="59.69" y1="60.96" x2="59.69" y2="10.16" x3="60.96" y3="35.56" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="50.8" y1="59.69" x2="29.21" y2="68.58" x3="71.12" y3="64.135" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="35.56" y1="8.89" x2="35.56" y2="0" x3="60.96" y3="4.445" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -4251,8 +4267,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="JP7" library="SparkFun-Connectors" package="1X06" value="" x="29.21" y="62.357" rot="R180">
 <attribute name="PROD_ID" value="CONN-08437" x="29.21" y="62.357" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="1.797878125" y="-14.605"/>
-<element name="U$2" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="13.335" y="-17.145"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-0.742121875" y="-26.035"/>
+<element name="U$2" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="10.795" y="-28.575"/>
 <element name="JP8" library="TempLibrary" package="UNO_R3_PROTO_SHIELD" value="ARDUINO_R3_SHIELDR3_PROTO_SHIELD" x="53.34" y="66.04" rot="R180"/>
 <element name="JP11" library="SparkFun-Connectors" package="1X08" value="" x="7.62" y="29.21" rot="R90">
 <attribute name="PROD_ID" value="CONN-08438" x="7.62" y="29.21" size="1.778" layer="27" rot="R90" display="off"/>
