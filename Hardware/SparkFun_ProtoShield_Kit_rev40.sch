@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -24902,7 +24902,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="170.942" y="11.43" size="2.54" layer="94" font="vector">Nathan Seidle</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v32</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v40</text>
 <text x="170.688" y="7.62" size="1.778" layer="94" font="vector" ratio="7">Toni Klopfenstein &amp; Ho Yun "Bobby" Chan</text>
 <text x="38.1" y="170.18" size="2.032" layer="97" font="vector" ratio="15">Arduino Shield</text>
 <text x="110.49" y="138.43" size="2.032" layer="97" font="vector" ratio="15">Power Rails</text>
