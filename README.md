@@ -8,8 +8,8 @@ SparkFun Arduino ProtoShield - Bare PCB
 "></a></td>
   </tr>
   <tr align="center">
-    <td>SparkFun Arduino ProtoShield - Bare PCB [<a href="https://www.sparkfun.com/products/13819">DEV-13819</a>]</td>
-    <td>SparkFun ProtoShield Kit [<a href="https://www.sparkfun.com/products/13820">DEV-13820</a>]</td>
+    <td>SparkFun Arduino ProtoShield - Bare PCB [ <a href="https://www.sparkfun.com/products/13819">DEV-13819</a> ]</td>
+    <td>SparkFun ProtoShield Kit [ <a href="https://www.sparkfun.com/products/13820">DEV-13820</a> ]</td>
   </tr>
 </table>
 
