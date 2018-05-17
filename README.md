@@ -1,7 +1,7 @@
 SparkFun Arduino ProtoShield - Bare PCB
 =======================================
 
-![SparkFun rduino ProtoShield - Bare PCB](https://cdn.sparkfun.com//assets/parts/8/6/9/11665-01.jpg)
+![SparkFun Arduino ProtoShield - Bare PCB](https://cdn.sparkfun.com//assets/parts/8/6/9/11665-01.jpg)
 
 [*SparkFun Arduino ProtoShield - Bare PCB (DEV-11665)*](https://www.sparkfun.com/products/11665)
 
@@ -11,6 +11,10 @@ access to a BlueSMiRF socket, a general pushbutton switch, and most important of
 Repository Contents
 -------------------
 * **/Hardware** - All Eagle design files (.brd, .sch)
+
+Documentation
+--------------
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/arduino-protoshield-quickstart-guide)** - Basic hookup guide for the SparkFun Arduino ProtoShield.
 
 Product Versions
 ----------------
