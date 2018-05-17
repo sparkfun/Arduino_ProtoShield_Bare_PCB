@@ -14,7 +14,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/arduino-protoshield-quickstart-guide)** - Basic hookup guide for the SparkFun Arduino ProtoShield.
+* **[Quickstart Guide](https://learn.sparkfun.com/tutorials/arduino-protoshield-quickstart-guide)** - Basic quickstart guide for the SparkFun Arduino ProtoShield.
 
 Product Versions
 ----------------
