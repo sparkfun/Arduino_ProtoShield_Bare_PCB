@@ -21,6 +21,11 @@ Product Versions
 * [DEV-11665](https://www.sparkfun.com/products/11665)- Bare pcb.
 * [DEV-07914](https://www.sparkfun.com/products/7914)- Protoshield Kit. Bare pcb plus stackable headers, indicator LEDs, push buttons and resistors.
 
+Version History
+---------------
+* [V_2.5F1.0](https://github.com/sparkfun/Arduino_ProtoShield_Bare_PCB/releases/tag/V_2.5F1.0) - Initial release with example code from quickstart guide 
+* [V_2.5](https://github.com/sparkfun/Arduino_ProtoShield_Bare_PCB/releases/tag/V_2.5) - Initial release
+
 License Information
 -------------------
 The hardware is released under [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
